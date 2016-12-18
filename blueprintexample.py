@@ -1,6 +1,6 @@
 from flask import Flask
 from simple_page.simple_page import simple_page
-
+print Hello
 app = Flask(__name__)
 ##
 app.register_blueprint(simple_page)
